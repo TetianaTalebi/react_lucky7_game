@@ -1,0 +1,20 @@
+.Lucky7 {
+    font-size: 40px;
+    color: lawngreen;
+}
+
+.Lucky7 button {
+    color: #7cfc00;
+    border: 4px solid #7cfc00;
+    outline: none;
+}
+
+.Lucky7 button:hover {
+    color: #7cfc00AA;
+    border-color: #7cfc00AA;
+}
+
+.Lucky7 button:active {
+    color: magenta;
+    border-color: magenta;
+}
