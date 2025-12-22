@@ -1,13 +1,13 @@
 import './App.css'
 import Lucky7 from './Lucky7'
-import Die from './Die'
+import Dice from './Dice'
 
 function App() {
  
-
+const nums = [1,3,5,6];
   return (
     <>
-      <Die val={5} color="coral" />
+      <Dice nums = {nums} color="salmon" />
       {/* <Lucky7 /> */}
     </>
   )
