@@ -1,14 +1,23 @@
 import './App.css'
-import Lucky7 from './Lucky7'
-import Dice from './Dice'
+import {sum} from './utils';
+import LuckyN from './LuckyN';
 
 function App() {
+
+  const lessThan4 = (dice) => {
+    return sum(dice)<4;
+  }
+
+  const allSameValue = (dice) => {
+    const checkAllSameValue = (curVal) => curVal === dice[0];
+    return dice.every(checkAllSameValue);
+  }
  
-const nums = [1,3,5,6];
   return (
     <>
-      <Dice nums = {nums} color="salmon" />
-      {/* <Lucky7 /> */}
+      <LuckyN />
+      <LuckyN title="Roll less than 4" color="salmon" numDice={2} winCheck={lessThan4} />
+      <LuckyN title="Roll the same number" color="lawngreen" numDice={2} winCheck={allSameValue} />
     </>
   )
 }
