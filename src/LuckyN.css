@@ -2,20 +2,3 @@
     margin: 5rem auto;
 }
 
-.LuckyN button {
-    color: white;
-    border: none;
-    background-color: gray;
-    border-radius: 0.8rem;
-    font-size: 2rem;
-    outline: none;
-    margin: 1rem auto;
-}
-
-.LuckyN button:hover {
-    background-color: silver;
-}
-
-.LuckyN button:active {
-    background-color: slateblue;
-}

@@ -1,0 +1,25 @@
+.Button {
+    color: white;
+    border-color: gray;
+    background-color: gray;
+    border-radius: 0.8rem;
+    font-size: 2rem;
+    outline: none;
+    margin: 1rem auto;
+}
+
+.Button:hover {
+    background-color: silver;
+    border-color: silver;
+}
+
+.Button:active {
+    background: slateblue;
+    border-color: slateblue;
+}
+
+.Button:focus {
+    outline: thick solid white;
+    outline-offset: 0.5rem;
+}
+
